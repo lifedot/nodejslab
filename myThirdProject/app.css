@@ -1,0 +1,29 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: url('./AmirNia.jpeg');
+    background-size: cover;
+    color: white;
+}
+
+form {
+    padding: 1em;
+    margin: 0 auto;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.highlight {
+    background: yellow;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+input, label {
+    display: block;
+}

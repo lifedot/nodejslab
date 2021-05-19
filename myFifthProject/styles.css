@@ -1,0 +1,77 @@
+#board {
+    padding: top 3em;
+    text-align: center;
+}
+
+.rows > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: both;
+}
+
+.rows {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top-left {
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+} 
+
+.top-middle {
+    position: relative;
+    right: 400px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.top-right {
+    position: absolute;
+    right: 285px;
+    border-bottom: 4px solid black;
+}
+.center-left {
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+
+}
+
+.center-middle {
+    position: relative;
+    border-bottom: 4px solid black;
+    left: 104px;
+    bottom: 104px;
+    border-right: 4px solid black;
+
+}
+
+.center-right {
+    position: relative;
+    left: 208px;
+    bottom: 208px;
+    border-bottom: 4px solid black;
+
+}
+.bottom-left {
+    position: relative;
+    bottom: 208px;
+    border-right: 4px solid black;
+}
+
+.bottom-middle {
+    position: relative;
+    left: 104px;
+    bottom: 308px;
+    border-right: 4px solid black;
+
+}
+
+.bottom-right {
+    position: relative;
+    left: 208px;
+    bottom: 408px;
+    
+
+}
